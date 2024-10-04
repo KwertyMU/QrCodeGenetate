@@ -25,7 +25,7 @@ export default function QrCodeGen() {
           type="text"
           value={value}
           onChange={InputHandler}
-          style={{ width: "250px", marginRight: "10px" }}
+          style={{ width: "240px", marginRight: "10px" }}
         />
         <a className="nav" onClick={Handler}>
           Сгенерировать QR
